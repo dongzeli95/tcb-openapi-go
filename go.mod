@@ -1,4 +1,4 @@
-module github.com/dongzeli95/tcb-openapi-go-sdk
+module github.com/dongzeli95/tcb-openapi-go
 
 go 1.14
 

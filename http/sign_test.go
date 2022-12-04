@@ -1,7 +1,7 @@
 package http_test
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/http"
+	"github.com/dongzeli95/tcb-openapi-go/http"
 	"testing"
 )
 

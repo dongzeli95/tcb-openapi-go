@@ -1,14 +1,14 @@
 package tcb
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component/database"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component/functions"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component/storage"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/config"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/context"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go/component"
+	"github.com/dongzeli95/tcb-openapi-go/component/database"
+	"github.com/dongzeli95/tcb-openapi-go/component/functions"
+	"github.com/dongzeli95/tcb-openapi-go/component/storage"
+	"github.com/dongzeli95/tcb-openapi-go/config"
+	"github.com/dongzeli95/tcb-openapi-go/context"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/sirupsen/logrus"
 	"os"

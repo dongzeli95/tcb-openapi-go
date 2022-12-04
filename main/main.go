@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/dongzeli95/tcb-openapi-go-sdk"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component/database/query"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/config"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go"
+	"github.com/dongzeli95/tcb-openapi-go/component/database/query"
+	"github.com/dongzeli95/tcb-openapi-go/config"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

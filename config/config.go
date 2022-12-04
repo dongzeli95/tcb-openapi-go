@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/spf13/viper"
 	"strings"

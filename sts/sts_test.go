@@ -2,8 +2,8 @@ package sts_test
 
 import (
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/sirupsen/logrus"
 	"os"

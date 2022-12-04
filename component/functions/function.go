@@ -2,8 +2,8 @@ package functions
 
 import (
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/context"
+	"github.com/dongzeli95/tcb-openapi-go/component"
+	"github.com/dongzeli95/tcb-openapi-go/context"
 )
 
 //云函数

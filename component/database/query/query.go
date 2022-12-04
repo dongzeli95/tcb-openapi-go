@@ -1,7 +1,7 @@
 package query
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

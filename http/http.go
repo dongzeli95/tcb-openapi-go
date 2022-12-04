@@ -3,9 +3,9 @@ package http
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/context"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util/loghttp"
+	"github.com/dongzeli95/tcb-openapi-go/context"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
+	"github.com/dongzeli95/tcb-openapi-go/util/loghttp"
 	"github.com/gogf/gf/encoding/gurl"
 	"github.com/gogf/gf/net/ghttp"
 	"github.com/gogf/gf/util/gconv"

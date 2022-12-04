@@ -1,7 +1,7 @@
 package context
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/config"
+	"github.com/dongzeli95/tcb-openapi-go/config"
 	"github.com/sirupsen/logrus"
 )
 

@@ -2,11 +2,11 @@ package database_test
 
 import (
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/component/database/query"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/config"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go"
+	"github.com/dongzeli95/tcb-openapi-go/component/database/query"
+	"github.com/dongzeli95/tcb-openapi-go/config"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/spf13/viper"
 	"go.mongodb.org/mongo-driver/bson"

@@ -1,10 +1,10 @@
 package component
 
 import (
-	"github.com/dongzeli95/tcb-openapi-go-sdk/context"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/http"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go/context"
+	"github.com/dongzeli95/tcb-openapi-go/http"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"net/url"
 )
 

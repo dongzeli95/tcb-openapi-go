@@ -2,9 +2,9 @@ package functions_test
 
 import (
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/config"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/sts"
+	"github.com/dongzeli95/tcb-openapi-go"
+	"github.com/dongzeli95/tcb-openapi-go/config"
+	"github.com/dongzeli95/tcb-openapi-go/sts"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/spf13/viper"
 	"testing"

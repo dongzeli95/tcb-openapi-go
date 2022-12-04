@@ -2,7 +2,7 @@ package sts
 
 import (
 	"fmt"
-	"github.com/dongzeli95/tcb-openapi-go-sdk/util"
+	"github.com/dongzeli95/tcb-openapi-go/util"
 	"github.com/gogf/gf/database/gredis"
 	"github.com/sirupsen/logrus"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
