@@ -53,7 +53,7 @@ func (d *Database) GetDocument(table, docId string, limit, skip uint64, fields b
 //https://docs.cloudbase.net/api-reference/openapi/database.html#updatedocument
 func (d *Database) UpdateDocument(table, docId string, data bson.M, transactionId ...string) (body string, err error) {
 	//请求参数
-	path := fmt.Sprintf("/api/v2/envs/%s/databases/%s/documents/%s", d.context.Config.EnvId, table, docId)
+	path := fmt.Sprintf("/api/v2/envs/%s/databases/%s/documents/%s?transactionId=%s", d.context.Config.EnvId, table, docId, d.appendTransActionId(transactionId...))
 
 	return d.core.HttpPatchJson(path, bson.M{
 		"data": util.JsonEncode(data),
